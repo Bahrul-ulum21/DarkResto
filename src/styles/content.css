@@ -1,0 +1,52 @@
+.restaurant-item {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgb(135, 132, 132);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .restaurant-item__header {
+    position: relative;
+  }
+  
+  .restaurant-item .restaurant-item__header .restaurant-item__header__poster {
+    width: 100%;
+  }
+  
+  .restaurant-item .restaurant-item__header .restaurant-item__header__rating {
+    position: absolute;
+    padding: 8px;
+    bottom: 20px;
+    left: 0;
+    display: inline-block;
+    background-color: #d72c2c;
+  }
+  
+  .restaurant-item
+    .restaurant-item__header
+    .restaurant-item__header__rating
+    .restaurant-item__header__rating__score {
+    margin-left: 10px;
+  }
+  
+  .restaurant-item .restaurant-item__content {
+    padding: 16px;
+  }
+  
+  .restaurant-item .restaurant-item__content h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .restaurant-item .restaurant-item__content h3 a {
+    color: #db0000;
+    text-decoration: none;
+  }
+  
+  .restaurant-item .restaurant-item__content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    color: #fff;
+  }
